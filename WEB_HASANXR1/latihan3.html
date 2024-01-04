@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pendaftaran Osis</title>
+    </head>
+    <body>
+        <h1>Pendaftaran Osis</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="nis">NIS</label></td>
+                    <td><input type="number" name="nis" id="nis" placeholder="input nis"
+                    ></td>
+                </tr>
+                <tr>
+                    <td><label for="Nama">nama</label></td>
+                    <td><input type="text" name="nama" id="nama" placeholder="input nama">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tempatlahir">Tempat Lahir</label></td>
+                    <td><select name="tempatlahir" id="tempatlahir">
+                        <option value="semarang">Semarang</option>
+                        <option value="Jakarta">Jakarta</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="tanggallahir">Tanggal Lahir</label></td>
+                    <td><input type="date" name="tanggallahir"
+                        id="tanggallahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><input type="radio" name="jeniskelamin"
+                        id="laki-laki"
+                        value="Laki-Laki">
+                        <label for="laki-laki"></label>
+                    <input type="radio" name="jeniskelamin"
+                    id="perempuan"
+                    value="perempuan">
+                    <label for="perempuan"></label>
+                </td>
+                </tr>
+                <tr>
+                    <td>Hoby</td>
+                    <td><input type="checkbox" name="hoby"
+                        id="membaca"
+                        value="membaca">
+                        <label for="membaca">Membaca</label>
+                        <input type="checkbox" name="hoby"
+                        id="memancing"
+                        value="Memancing">
+                        <label for="memancing">Memancing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" name="btnsimpan">simpan</button>
+                        <button type="reset" name="btnbatal">Batal</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
